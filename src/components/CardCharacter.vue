@@ -1,5 +1,4 @@
 <template>
-    {{ console.log(Characters) }}
     <div class="container">
         <div class="card" v-for="character in Characters" :key="character.id">
 
